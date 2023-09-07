@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Raiden homepage</title>
+        <meta name="keywords" content="Raiden, Homepage" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="Homepaage for raiden bot" />
+        <meta http-equiv="refresh" content="5" />
+    <link rel="stylesheet" type="text/css" href="home.css">
+     </head>
+<body>
+    <div id="preloader"></div>
+    <div id="progress"></div>
+    <ul id="navigation">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Developer</a></li>
+        <li><a href="#">Information</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li class="slide"></li>
+    </ul>
+    <div id="Raiden">
+    <h1>Raiden</h1>
+</div>
+<img class="image" src="Raiden.jpg">
+<div id="Slogan">
+<h1><b>Build the discord server of your dreams</b></h1></div>
+<div id="Invite">
+<a class="invite" href="https://discord.com/api/oauth2/authorize?client_id=911833727301189684&permissions=8&scope=bot%20applications.commands">Invite</a>
+</div>
+<div id="Raidencom">
+    
+</div>
+<div class="content">
+    <h2>About Raiden</h2>
+    <p>Raiden is a Discord Administartion and Moderation Bot made to help server owners to manage thier discord server, with most possible features. It deals with Reaction Roles and Ticket System in an efficient manner giving you proper logs and an high effiecient functionality. It also comes with a diverse range of moderation commands that can be customized according to the server admins' standard</p>
+    <h2>Why choose raiden?</h2>
+    <p>This is a valid question thats why, we got a valid answer
+        While there are many far more famous bots than raiden, Raiden offers loads of things without even having to pay anything! and The main catch of the bot is, it will never make you feel bad it's service quality. It will always offer high speed functionality for your server. Unlike other bots, Raiden has 99.99%[171692/171698] Uptime and Average Ping of 17ms.
+        <br>Another catch is, sometime setting up Raiden can be complex for beginners, it's a learning curve. But our support server is here to help you out, in every problematic situation.<br>Also,not to brag but more than 200 servers find us usefull you might too!
+        </p>
+        <h2>What are the features?</h2>
+        <p>Some of the most used raiden features are:
+            <ul id="features">
+                <li>Canvas welcome and leave logs</li>
+                <li>Ticketing system</li>
+                <li>Verification sysytem</li>
+                <li>ghost ping detector</li>
+                <li>Channel locking</li>
+                <li>Embed builder</li>
+            </ul>
+        </p>
+        <p>
+            And these are just some of many, also considering the fact that the bot constantly gets updated, adding new features regulalry
+        </p>
+</div>
+
+    <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function() {
+            loader.style.display = "none"
+        });
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('li').on('click', function(){
+                    $(this).siblings().removeClass('active');
+                    $(this).addClass('active');
+                })
+            })
+                </script>
+  </script>
+  </script>
+  <script src="home.js"></script>
+</html>
